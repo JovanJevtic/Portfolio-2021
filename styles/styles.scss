@@ -1,0 +1,21 @@
+@import './config/config';
+@import './pages/homepage';
+@import './components/header';
+@import './pages/aboutpage';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page {
+    min-height: 100vh;
+    width: 100%;
+    background: $color1;
+}
+
+.container {
+    margin: auto;
+    max-width: 350px;
+}

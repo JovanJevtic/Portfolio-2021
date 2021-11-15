@@ -1,0 +1,109 @@
+#homepage {
+    min-height: 100vh;
+    width: 100%;
+    // background: red;
+    overflow-x: hidden;
+
+    #homepage-heading {
+        color: #fff;
+        font-size: 48px;
+    }
+
+    #homepage-subheading {
+        height: 10vh;
+        width: 100%;
+        // background: red;
+
+        ul {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            list-style: none;
+
+            li {
+                flex: 1;
+                // background: blueviolet;
+                
+                .homepage-subheading-li-wrapp {
+                    // background: red;
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    .homepage-subheading-circle-wrapp {
+                        flex: 1;
+
+                        .homepage-subheading-circle {
+                            height: 8px;
+                            width: 8px;
+                            background: #fff;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .homepage-subheading-text-wrapp {
+                        flex: 2;
+                        .homepage-subheading-text {
+                            color: #fff;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#homepage-img {
+    // margin-top: 2vh;
+    width: 130%;
+    // background: red;
+    margin-left: -80px;
+}
+
+#homepage-btns-wrapp {
+    height: 18vh;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    // background: yellow;
+}
+
+.homepage-cta-wrapp {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-cta {
+    width: 80%;
+    height: 75%;
+    // background: red;
+    cursor: pointer;
+}
+
+.homepage-cta-wrapp:nth-child(2) {
+    align-items: flex-end;
+}
+
+#homepage-cta1 {
+    background: $color2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#homepage-cta2 {
+    border: 1px solid $color2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
