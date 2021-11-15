@@ -35,8 +35,8 @@
                         flex: 1;
 
                         .homepage-subheading-circle {
-                            height: 8px;
-                            width: 8px;
+                            height: 7px;
+                            width: 7px;
                             background: #fff;
                             border-radius: 50%;
                         }
@@ -47,6 +47,7 @@
                         .homepage-subheading-text {
                             color: #fff;
                             font-weight: 400;
+                            font-size: 14px;
                         }
                     }
                 }
@@ -78,7 +79,7 @@
 }
 
 .homepage-cta {
-    width: 80%;
+    width: 90%;
     height: 75%;
     // background: red;
     cursor: pointer;
