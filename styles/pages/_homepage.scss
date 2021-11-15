@@ -11,7 +11,7 @@
 
     #homepage-subheading {
         height: 10vh;
-        width: 100%;
+        width: 80%;
         // background: red;
 
         ul {
@@ -43,7 +43,10 @@
                     }
 
                     .homepage-subheading-text-wrapp {
-                        flex: 2;
+                        flex: 4;
+                        display: flex;
+                        justify-content: flex-start;
+                        // background: yellow;
                         .homepage-subheading-text {
                             color: #fff;
                             font-weight: 400;
