@@ -7,6 +7,7 @@
     #homepage-heading {
         color: #fff;
         font-size: 48px;
+        // color: #000;
     }
 
     #homepage-subheading {
@@ -35,8 +36,8 @@
                         flex: 1;
 
                         .homepage-subheading-circle {
-                            height: 7px;
-                            width: 7px;
+                            height: 5px;
+                            width: 5px;
                             background: #fff;
                             border-radius: 50%;
                         }
@@ -46,9 +47,11 @@
                         flex: 4;
                         display: flex;
                         justify-content: flex-start;
+                        // align-items: flex-end;
                         // background: yellow;
                         .homepage-subheading-text {
                             color: #fff;
+                            color: #d4d3d3;
                             font-weight: 400;
                             font-size: 12px;
                         }
@@ -61,9 +64,9 @@
 
 #homepage-img {
     // margin-top: 2vh;
-    width: 130%;
+    width: 120%;
     // background: red;
-    margin-left: -17%;
+    margin-left: -12%;
 }
 
 #homepage-btns-wrapp {
@@ -102,6 +105,12 @@
     color: #fff;
     font-weight: bold;
     font-size: 18px;
+    transition: .4s background;
+
+    &:hover {
+        background: $color1;
+        border: 2px solid $color3;
+    }
 }
 
 #homepage-cta2 {
