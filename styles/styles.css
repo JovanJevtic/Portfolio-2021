@@ -82,7 +82,7 @@ a {
 #homepage #homepage-subheading ul li .homepage-subheading-li-wrapp .homepage-subheading-text-wrapp .homepage-subheading-text {
   color: #fff;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #homepage-img {
@@ -91,8 +91,8 @@ a {
 }
 
 #homepage-btns-wrapp {
-  height: 18vh;
-  width: 60%;
+  height: 10vh;
+  width: 100%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,6 +101,7 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 5vh;
 }
 
 .homepage-cta-wrapp {
@@ -116,7 +117,7 @@ a {
 }
 
 .homepage-cta {
-  width: 90%;
+  width: 100%;
   height: 75%;
   cursor: pointer;
 }
@@ -128,7 +129,8 @@ a {
 }
 
 #homepage-cta1 {
-  background: #461CFF;
+  background: #3d11ff;
+  background: #d41f3a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,7 +146,7 @@ a {
 }
 
 #homepage-cta2 {
-  border: 1px solid #461CFF;
+  border: 1px solid #3d11ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -190,7 +192,8 @@ header nav #logo-wrapp {
 }
 
 header nav #logo-wrapp #logo {
-  color: #C73C51;
+  color: #d41f3a;
+  color: #fff;
   font-size: 16px;
 }
 
