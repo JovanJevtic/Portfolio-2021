@@ -62,12 +62,20 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    #homepage-img {
+        max-width: 800px;
+    }
+}
+
 #homepage-img {
     // margin-top: 2vh;
     width: 120%;
     // background: red;
-    margin-left: -12%;
+    margin-left: -8%;
+    // margin: auto;
 }
+
 
 #homepage-btns-wrapp {
     height: 10vh;

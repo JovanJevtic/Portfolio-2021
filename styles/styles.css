@@ -86,9 +86,15 @@ a {
   font-size: 12px;
 }
 
+@media screen and (max-width: 700px) {
+  #homepage-img {
+    max-width: 800px;
+  }
+}
+
 #homepage-img {
   width: 120%;
-  margin-left: -12%;
+  margin-left: -8%;
 }
 
 #homepage-btns-wrapp {
@@ -130,8 +136,8 @@ a {
 }
 
 #homepage-cta1 {
-  background: #3d11ff;
-  background: #d41f3a;
+  background: #fafafa;
+  background: #C72A2A;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,12 +155,12 @@ a {
 }
 
 #homepage-cta1:hover {
-  background: #010517;
-  border: 2px solid #d41f3a;
+  background: #171717;
+  border: 2px solid #C72A2A;
 }
 
 #homepage-cta2 {
-  border: 1px solid #3d11ff;
+  border: 1px solid #fafafa;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,7 +180,7 @@ header {
   width: 100%;
   min-height: 60px;
   position: fixed;
-  background: #010517;
+  background: #171717;
 }
 
 header nav {
@@ -200,15 +206,15 @@ header nav #logo-wrapp {
 }
 
 header nav #logo-wrapp #logo {
-  color: #d41f3a;
+  color: #C72A2A;
   color: #fff;
   font-size: 16px;
 }
 
 header nav #menu-wrapp {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -218,17 +224,51 @@ header nav #menu-wrapp {
 }
 
 header nav #menu-wrapp #list-menu-wrapp {
-  height: 100px;
-  width: 100px;
-  background: red;
+  height: 100%;
+  width: 100%;
 }
 
-header nav #menu-wrapp #hamburger-menu-wrapp {
+header nav #menu-wrapp #list-menu-wrapp ul {
   height: 100%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav #menu-wrapp #list-menu-wrapp ul li a {
+  color: #fff;
+  font-size: 14px;
+}
+
+header nav #menu-wrapp #list-menu-wrapp ul li:nth-child(5) {
+  background: #C72A2A;
+  border-radius: 15px;
+}
+
+header nav #menu-wrapp #list-menu-wrapp ul li:nth-child(5) a {
+  min-height: 32px;
+  min-width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav #menu-wrapp #hamburger-menu-wrapp {
+  height: 100%;
+  width: 100%;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -284,9 +324,21 @@ header nav #menu-wrapp #hamburger-menu-wrapp #hamburger-menu .hamburger-menu-lin
   min-height: 60px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 920px) {
   #list-menu-wrapp {
     display: none;
+  }
+  #hamburger-menu-wrapp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  #hamburger-menu-wrapp {
+    display: none;
+    background: palegreen;
   }
 }
 
@@ -295,7 +347,7 @@ header nav #menu-wrapp #hamburger-menu-wrapp #hamburger-menu .hamburger-menu-lin
   height: 100vh;
   width: 70%;
   left: -70%;
-  background: #010517;
+  background: #171717;
   border-right: 1px solid black;
   -webkit-transition: .3s;
   transition: .3s;
@@ -320,11 +372,41 @@ header nav #menu-wrapp #hamburger-menu-wrapp #hamburger-menu .hamburger-menu-lin
 #page {
   min-height: 100vh;
   width: 100%;
-  background: #010517;
+  background: #171717;
 }
 
-.container {
-  margin: auto;
-  max-width: 350px;
+@media screen and (min-width: 1340px) {
+  .container {
+    margin: auto;
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .container {
+    margin: auto;
+    max-width: 1120px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .container {
+    margin: auto;
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .container {
+    margin: auto;
+    max-width: 420px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    margin: auto;
+    max-width: 350px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -7,7 +7,7 @@ const modalMenuToggle = () => {
         modalMenu.classList.toggle('modal-menu-active');
         console.log(btnLines)
 
-        btnLines.forEach(el => {
+        btnLines.forEach(el => { 
             el.classList.toggle('hamburger-menu-line-active');
             console.log(el)
         });

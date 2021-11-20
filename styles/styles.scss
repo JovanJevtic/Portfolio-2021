@@ -17,7 +17,37 @@
     // background: #fff;
 }
 
-.container {
-    margin: auto;
-    max-width: 350px;
+@media screen and (min-width: 1340px) {
+    .container {
+        margin: auto;
+        max-width: 1320px;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .container {
+        margin: auto;
+        max-width: 1120px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .container {
+        margin: auto;
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .container {
+        margin: auto;
+        max-width: 420px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .container {
+        margin: auto;
+        max-width: 350px;
+    }
 }
